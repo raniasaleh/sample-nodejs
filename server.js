@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 // Port Number
-const PORT = 3002;
+const PORT = process.env.PORT || 3001;
 
 // Server Setup
 app.listen(PORT,console.log(

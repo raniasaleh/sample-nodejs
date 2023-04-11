@@ -1,4 +1,4 @@
-FROM node:16
+FROM FROM registry.access.redhat.com/ubi8/nodejs-16:1-90
 WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install

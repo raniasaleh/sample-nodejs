@@ -3,5 +3,5 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 RUN npm install
 COPY . .
-ENV PORT 3002
+ENV PORT 3001
 CMD [ "node", "server.js" ]
